@@ -7,7 +7,7 @@ forked from: [https://github.com/Sovol3d/Sv06-Source-Code](https://github.com/So
 - added functionality for filament runout sensor
 - changed version name to V1.9.2_A_modified
 
-# Hot to Flash
+# How to Flash
 
 1. download the **custom-firmware.bin**
 2. get an empty sd-card *(maximum 16gb)* and format it to **FAT23**
