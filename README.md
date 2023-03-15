@@ -10,36 +10,27 @@ forked from: [https://github.com/Sovol3d/Sv06-Source-Code](https://github.com/So
 # Hot to Flash
 
 1. download the **custom-firmware.bin**
+2. get an empty sd-card *(maximum 16gb)* and format it to **FAT23**
+3. put the **custom-firmware.bin** onto that sd-card
+4. turn your SV06 off
+5. plug in the sd-card
+6. turn the SV06 on
+7. wait until you see the satus screen
+8. turn the SV06 off again
+9. unplug the sd-card (and delete the **custom-firmware.bin** if you are using that sd-card for printing)
 
-# Introduction
+You can also download this repository, tweak some things to your needs and compile your own .bin file.
 
-Sovol SV06 is a budget printer with compact functions. It adopts the movement structure of polished rod and bearings, thus, no wheels on the printer anymore!
-It’s with an All Metal Hotend and a Planetary Gear Direct Drive Extruder, which supports printing with soft TPU and high-temperature filament, such as PETG, ABS, Carbon Fiber, etc. 
-PEI Plate, 25 point Auto Leveling, 32bit Silent Mainboard, Dual Z axis, and Belt Tensioner are all pre-installed on the SV06. Welcome to check more on sovol3d.com
+# How to connect the sensor
 
-# Join Sovol Community
+1. turn off your SV06
+2. open the mainboard box (there is a screw on one side, facing away the printbed, which has to be removed first)
+3. find the cable that is labeled **DET** (position is shown in the image below)
+4. unplug that cable
+5. plug your filament sensor into that connector
+6. close the mainboard box
 
-- Sovol Facebook page: https://www.facebook.com/sovol3d/
-- Sovol Youtube Channel: https://www.youtube.com/c/Sovol/videos
-- Sovol Offcial User Group: https://www.facebook.com/groups/sovol3d
-- Sovol Forum website: https://forum.sovol3d.com/
+<img src=https://user-images.githubusercontent.com/105000853/225328203-bf1f0165-b582-4831-b124-b204d78fd254.png width="235" height="310">
+position of the connector (in my case the runout sensor is already connected, in your case there should be a black cable labeled **DET**)
 
-# Related tutorials 
-
-- User Manual. [Click here](https://drive.google.com/drive/folders/10uJUe-J0IutQSNI4IS-Tbwym4Ch8Yw6x)
-
-# Learn more& How to Buy it
-
-on Sovol Official Website: https://sovol3d.com/products/sovol-sv06-direct-drive-3d-printer
-
-# Notice
-
-This is the official source code for Sovol SV06. The damage caused by modifying firmware also using the third party firmware will lose the 1 year warranty. If you need support, it’s recommended to reflash the stock firmware before contacting sovol.
-
-Sovol doesn’t provide tech help for help users to modify source code, but if you need us to add more functions, you are welcome to send us your suggestions via Facebook Messenger or email 
-info@sovol3d.com
-
-
-
-
-
+# Enjoy your SV06 with a filement runour sensor!
