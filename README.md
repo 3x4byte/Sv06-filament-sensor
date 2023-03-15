@@ -1,3 +1,16 @@
+# Forked Repository
+
+forked from: [https://github.com/Sovol3d/Sv06-Source-Code](https://github.com/Sovol3d/Sv06-Source-Code)
+
+# Changes
+
+- added functionality for filament runout sensor
+- changed version name to V1.9.2_A_modified
+
+# Hot to Flash
+
+1. download the **custom-firmware.bin**
+
 # Introduction
 
 Sovol SV06 is a budget printer with compact functions. It adopts the movement structure of polished rod and bearings, thus, no wheels on the printer anymore!
