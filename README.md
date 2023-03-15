@@ -30,7 +30,8 @@ You can also download this repository, tweak some things to your needs and compi
 5. plug your filament sensor into that connector
 6. close the mainboard box
 
-<img src=https://user-images.githubusercontent.com/105000853/225328203-bf1f0165-b582-4831-b124-b204d78fd254.png width="235" height="310">
+<img src=https://user-images.githubusercontent.com/105000853/225328203-bf1f0165-b582-4831-b124-b204d78fd254.png width="235" height="310"></img>
+
 position of the connector (in my case the runout sensor is already connected, in your case there should be a black cable labeled **DET**)
 
 # Enjoy your SV06 with a filement runour sensor!
